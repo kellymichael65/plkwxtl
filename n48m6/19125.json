@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：实战项目：搭建本地Mock服务快速开发联调
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://wap.kgpmap.asia/blog/8579149.sHtMl
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://wap.kgpmap.asia/blog/8278257.sHtMl
+
+原标题：运维笔记：服务器日志轮转logrotate配置
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://wap.kgpmap.asia/blog/3025811.sHtMl
+
+原标题：golang 系统设计 go benchmark 性能测试实操
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：http://wap.kgpmap.asia/blog/9669114.sHtMl
+
+原标题：包管理器依赖冲突解决方案
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://wap.kgpmap.asia/blog/9468147.sHtMl
+
+原标题：方案对比：几种任务队列架构选型优缺点
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://wap.kgpmap.asia/blog/4923581.sHtMl
+
+原标题：golang 系统设计性能瓶颈定位完整方法论
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：http://wap.kgpmap.asia/blog/2603658.sHtMl
+
+原标题：静态站点自动部署发布方案
+简介：golang 数据库 ORM 框架选型对比，gorm xorm sqlx 对比各 ORM 优缺点，根据业务场景选型。
+ | 原文链接：http://wap.kgpmap.asia/blog/4824759.sHtMl
+
+原标题：开发复盘：分布式会话共享多种方案实践
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://wap.kgpmap.asia/blog/1968869.sHtMl
+
+原标题：Practice：实现接口防重提交组件实践
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://wap.kgpmap.asia/blog/1524038.sHtMl
+
+原标题：golang 系统设计 graphql 接口优缺点梳理
+简介：golang docker 多阶段构建 go 镜像，Go 项目 Docker 多阶段构建，编译与运行阶段分离，大幅度缩减最终镜像体积，提升镜像分发效率。
+ | 原文链接：http://wap.kgpmap.asia/blog/1936362.sHtMl
+
+原标题：开发复盘：大JSON解析分批处理避免内存溢出
+简介：golang strings 常用函数业务实战，字符串分割替换包含判断前缀后缀，掌握 strings 包高频函数。
+ | 原文链接：http://wap.kgpmap.asia/blog/5262624.sHtMl
+
+原标题：运维笔记：系统内核参数调优生产服务器
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：http://wap.kgpmap.asia/blog/4857253.sHtMl
+
+原标题：golang 系统设计日志脱敏防止信息泄露
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://wap.kgpmap.asia/blog/7180180.sHtMl
+
+原标题：运维笔记：服务器定时任务运维脚本编写
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://wap.kgpmap.asia/blog/9534149.sHtMl
+
+原标题：golang k8s hpa 水平 pod 自动扩缩容
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://wap.kgpmap.asia/blog/2486889.sHtMl
+
+原标题：新手教程：gitstash暂存工作区变更实操
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：http://wap.kgpmap.asia/blog/2656446.sHtMl
+
+原标题：golang gin 路由分组权限管控
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://wap.kgpmap.asia/blog/9341357.sHtMl
+
+原标题：快速上手简单的限流逻辑模拟实现
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://wap.kgpmap.asia/blog/5907003.sHtMl
+
+原标题：golang consul 服务发现简单示例
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：http://wap.kgpmap.asia/blog/4656688.sHtMl
+
+原标题：JWT 工具封装令牌刷新过期
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://wap.kgpmap.asia/blog/0456565.sHtMl
+
+原标题：架构笔记：数据脱敏架构接入层与存储层方案
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://wap.kgpmap.asia/blog/1133145.sHtMl
+
+原标题：实战项目：搭建私有Docker镜像仓库本地实践
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://wap.kgpmap.asia/blog/4899798.sHtMl
+
+原标题：新手指南：读懂项目构建脚本作用
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://wap.kgpmap.asia/blog/0032241.sHtMl
+
+原标题：架构笔记：高并发系统核心设计思路总结
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：http://wap.kgpmap.asia/blog/0074545.sHtMl
+
+原标题：golang gin 中间件执行顺序讲解
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://wap.kgpmap.asia/blog/8790029.sHtMl
+
+原标题：Issue：日志输出包含敏感信息造成泄露风险
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://wap.kgpmap.asia/blog/1852330.sHtMl
+
+原标题：零基础学习简单正则表达式实战案例
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：http://wap.kgpmap.asia/blog/3274534.sHtMl
+
+原标题：golang grafana 监控面板简单配置
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://wap.kgpmap.asia/blog/2144135.sHtMl
+
+原标题：golang 系统设计日志本地打印线上关闭调试信息
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://wap.kgpmap.asia/blog/0922455.sHtMl
+
+原标题：缓存过期策略优化防业务故障
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：http://wap.kgpmap.asia/blog/1825036.sHtMl
+
+原标题：Hands‑on：简易熔断逻辑状态机原型实现
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：http://wap.kgpmap.asia/blog/0716906.sHtMl
+
+原标题：Hands‑on：简易配置中心本地原型实现
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://wap.kgpmap.asia/blog/1040463.sHtMl
+
+原标题：Debug：消息队列死信队列堆积无人处理业务阻塞
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：http://wap.kgpmap.asia/blog/2261362.sHtMl
+
+原标题：实战项目：搭建本地Mock服务快速开发联调
+简介：golang 滑动窗口限流算法 go 实现，滑动窗口限流，解决固定窗口临界流量突增漏洞，限流更精准。
+ | 原文链接：http://wap.kgpmap.asia/blog/4261625.sHtMl
+
+原标题：新手向：项目目录结构规范与含义解析
+简介：golang http 客户端连接泄漏排查，http client 未读取响应体导致连接无法复用，解决连接泄漏耗尽连接池。
+ | 原文链接：http://wap.kgpmap.asia/blog/0445857.sHtMl
+
+原标题：方案设计：统一ID生成服务架构对比雪花算法
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://wap.kgpmap.asia/blog/1046362.sHtMl
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://wap.kgpmap.asia/blog/6480280.sHtMl
+
+原标题：golang 系统设计 e2e 端到端测试简单落地思路
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://wap.kgpmap.asia/blog/0413913.sHtMl
+
+原标题：Docker 容器网络不通排查
+简介：golang 子进程超时杀死防止挂住，context 控制子进程超时，超时强制杀掉子进程，避免子进程僵尸。
+ | 原文链接：http://wap.kgpmap.asia/blog/0790547.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计链路查询定位慢请求实操技巧
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://wap.kgpmap.asia/blog/8267025.sHtMl
+
+原标题：坑点：Docker资源限制未设置导致宿主机卡死
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://wap.kgpmap.asia/blog/0480368.sHtMl
+
+原标题：项目实践：接口压测，逐步加压观察系统表现
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：http://wap.kgpmap.asia/blog/9605846.sHtMl
+
+原标题：优化实践：Redis管道、批量命令减少网络往返
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：http://wap.kgpmap.asia/blog/7507029.sHtMl
+
+原标题：nodejs 事件循环机制完整讲解
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：http://wap.kgpmap.asia/blog/4835814.sHtMl
+
+原标题：golang etcd watch 监听配置变更
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://wap.kgpmap.asia/blog/1891469.sHtMl
+
+原标题：golang k8s ingress 路由域名转发
+简介：golang k8s go 服务 yaml 资源编写，k8s 部署 go 应用 deployment service，健康检查资源限制配置。
+ | 原文链接：http://wap.kgpmap.asia/blog/7595819.sHtMl
+
+原标题：实战：GraphQL服务搭建与CRUD实操
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://wap.kgpmap.asia/blog/8727030.sHtMl
+
+原标题：开发记录：日志脱敏防止敏感信息输出实践
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：http://wap.kgpmap.asia/blog/6088171.sHtMl
+
+原标题：golang 链路 traceId 透传中间件
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://wap.kgpmap.asia/blog/4163706.sHtMl
+
+原标题：AI实践：大模型生成测试用例实践与校验
+简介：容器资源限制防止宿主机过载，设置容器 CPU 内存资源上限，避免单个容器耗尽宿主机全部硬件资源。
+ | 原文链接：http://wap.kgpmap.asia/blog/9605817.sHtMl
+
+原标题：架构笔记：分库分表中间件选型业务约束
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://wap.kgpmap.asia/blog/3605947.sHtMl
+
+原标题：从零搭建本地数据库开发环境
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://wap.kgpmap.asia/blog/2994045.sHtMl
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：http://wap.kgpmap.asia/blog/8491816.sHtMl
+
+原标题：快速入门日志打印与日志分级基础用法
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://wap.kgpmap.asia/blog/5257368.sHtMl
+
+原标题：前端虚拟列表大数据渲染优化
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：http://wap.kgpmap.asia/blog/5291695.sHtMl
+
+原标题：踩坑记录：UTC时间与本地时间混用逻辑错乱
+简介：golang 工具函数库封装思路，Go 通用工具库封装思路，错误处理、类型转换，业务项目复用工具代码。
+ | 原文链接：http://wap.kgpmap.asia/blog/6372513.sHtMl
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://wap.kgpmap.asia/blog/6483635.sHtMl
+
+原标题：golang 系统设计内部服务链路 trace 传递实现
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：http://wap.kgpmap.asia/blog/8591794.sHtMl
+
+原标题：数值类型溢出错乱问题修复
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://wap.kgpmap.asia/blog/0727040.sHtMl
+
+原标题：golang 系统设计 traceId 全链路透传完整方案
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://wap.kgpmap.asia/blog/7089281.sHtMl
+
+原标题：golang k8s 持久化 pv pvc 使用实操
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://wap.kgpmap.asia/blog/3051404.sHtMl
+
+原标题：Nginx 缓冲区调优大文件上传
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://wap.kgpmap.asia/blog/6496967.sHtMl
+
+原标题：接口压测定位系统性能瓶颈
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://wap.kgpmap.asia/blog/3779281.sHtMl
+
+原标题：开发记录：服务优雅关闭释放资源完整实现
+简介：内存广播本地进程消息通知，实现进程内内存消息广播，进程内部模块之间事件通知解耦。
+ | 原文链接：http://wap.kgpmap.asia/blog/6369508.sHtMl
+
+原标题：golang 内存 pprof 定位内存泄漏
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://wap.kgpmap.asia/blog/1624581.sHtMl
+
+原标题：golang 系统设计单元测试 mock 外部依赖技巧
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://wap.kgpmap.asia/blog/7379814.sHtMl
+
+原标题：Security：Docker镜像安全扫描漏洞修复
+简介：golang rsa 非对称加密签名验签，RSA 非对称加密与签名验签，实现非对称安全通信。
+ | 原文链接：http://wap.kgpmap.asia/blog/2049281.sHtMl
+
+原标题：DevOps：Docker镜像优化，减小镜像体积实践
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：http://wap.kgpmap.asia/blog/8828170.sHtMl
+
+原标题：Performance：JSON序列化性能优化实践
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://wap.kgpmap.asia/blog/8502625.sHtMl
+
+原标题：设计思考：消息队列重复消费架构层防御手段
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://wap.kgpmap.asia/blog/0716947.sHtMl
+
+原标题：设计思考：系统降级开关架构设计快速切流量
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：http://wap.kgpmap.asia/blog/2937158.sHtMl
+
+原标题：golang gin 框架接口开发实战
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://wap.kgpmap.asia/blog/8857360.sHtMl
+
+原标题：快速上手单元测试，写出第一个测试用例
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://wap.kgpmap.asia/blog/2942469.sHtMl
+
+原标题：golang 系统设计线程协程泄露定位方法
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：http://wap.kgpmap.asia/blog/5970694.sHtMl
+
+原标题：golang 链路追踪简易实现方案
+简介：TCP 心跳检测清理僵死连接，开启 TCP 心跳机制，自动清理僵死无效连接，释放连接资源。
+ | 原文链接：http://wap.kgpmap.asia/blog/5936580.sHtMl
+
+原标题：golang 系统设计监控缺失指标补全完整流程
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://wap.kgpmap.asia/blog/4356702.sHtMl
+
+原标题：golang 系统设计 go netpoll 多路复用简单理解
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://wap.kgpmap.asia/blog/5261404.sHtMl
+
+原标题：安全复盘：日志打印敏感信息泄露治理
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：http://wap.kgpmap.asia/blog/1828929.sHtMl
+
+原标题：DevOps：Docker镜像安全扫描集成CI流程
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://wap.kgpmap.asia/blog/7592626.sHtMl
+
+三、实战开发｜Practice
+原标题：缓存基础原理与简单代码实现
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://wap.kgpmap.asia/blog/5804029.sHtMl
+
+原标题：Practice：实现防爬虫简单拦截中间件实践
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：http://wap.kgpmap.asia/blog/5160471.sHtMl
+
+原标题：nodejs 多进程任务分发处理
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：http://wap.kgpmap.asia/blog/3046250.sHtMl
+
+原标题：Docker Compose 一键搭建本地栈
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://wap.kgpmap.asia/blog/7485817.sHtMl
+
+原标题：接口签名验签完整安全方案
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://wap.kgpmap.asia/blog/7489591.sHtMl
+
+原标题：Architecture：API设计RESTful最佳实践与反模式
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://wap.kgpmap.asia/blog/9261691.sHtMl
+
+原标题：HelloShell：入门常用shell脚本编写
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：http://wap.kgpmap.asia/blog/6385707.sHtMl
+
+原标题：运维笔记：系统文件句柄数调整生产配置
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：http://wap.kgpmap.asia/blog/9383616.sHtMl
+
+原标题：日志输出规范防止磁盘爆满
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://wap.kgpmap.asia/blog/7361416.sHtMl
+
+原标题：依赖安装失败全方位排错
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://wap.kgpmap.asia/blog/9662482.sHtMl
+
+原标题：快速入门简单签名校验实现思路
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://wap.kgpmap.asia/blog/3168475.sHtMl
+
+原标题：golang http 请求重试封装工具
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：http://wap.kgpmap.asia/blog/9602404.sHtMl
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：http://wap.kgpmap.asia/blog/6158136.sHtMl
+
+原标题：golang 系统设计唯一索引业务使用场景
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://wap.kgpmap.asia/blog/4365269.sHtMl
+
+原标题：golang 开发环境快速搭建指南
+简介：golang go http 安全头配置实践，设置 http 安全响应头，防范 XSS、点击劫持，提升 web 服务安全性。
+ | 原文链接：http://wap.kgpmap.asia/blog/2890912.sHtMl
+
+原标题：前端水印防信息泄露实现
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://wap.kgpmap.asia/blog/3767667.sHtMl
+
+原标题：Performance：后端接口性能优化完整分析流程
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://wap.kgpmap.asia/blog/9919229.sHtMl
+
+原标题：golang k8s 资源请求限制配置
+简介：golang gorm 索引设置与优化技巧，定义数据库索引，理解索引生效条件，避免索引失效慢查询。
+ | 原文链接：http://wap.kgpmap.asia/blog/2008036.sHtMl
+
+原标题：运维笔记：服务器定时任务运维脚本编写
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://wap.kgpmap.asia/blog/4163785.sHtMl
+
+原标题：Issue：系统fd快速上涨进程慢慢卡死
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：http://wap.kgpmap.asia/blog/0728037.sHtMl
+
+原标题：零基础理解跨域问题产生原因与基础方案
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://wap.kgpmap.asia/blog/9602804.sHtMl
+
+原标题：安全复盘：Redis未授权访问漏洞防护
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：http://wap.kgpmap.asia/blog/1994707.sHtMl
+
+原标题：Hands‑on：本地模拟分布式锁失效场景测试
+简介：内存广播本地进程消息通知，实现进程内内存消息广播，进程内部模块之间事件通知解耦。
+ | 原文链接：http://wap.kgpmap.asia/blog/6483708.sHtMl
+
+原标题：Practice：实现业务操作日志记录中间件实践
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://wap.kgpmap.asia/blog/6378058.sHtMl
+
+原标题：Performance：长连接管理优化减少连接重建开销
+简介：nodejs jwt 登录鉴权完整示例，Node 实现 JWT 登录鉴权，登录签发令牌，接口校验令牌身份。
+ | 原文链接：http://wap.kgpmap.asia/blog/2838375.sHtMl
+
+原标题：架构复盘：慢查询治理架构层面优化手段
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://wap.kgpmap.asia/blog/3068069.sHtMl
+
+原标题：golang 系统设计网关错误重试超时处理策略
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://wap.kgpmap.asia/blog/1859258.sHtMl
+
+原标题：Practice：实现请求大小限制中间件防护大报文
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：http://wap.kgpmap.asia/blog/6379171.sHtMl
+
+原标题：golang kafka 批量发送消费优化
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://wap.kgpmap.asia/blog/1838070.sHtMl
+
+原标题：新手向：开源项目本地构建失败通用排查步骤
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：http://wap.kgpmap.asia/blog/5261479.sHtMl
+
+原标题：简易网关请求路由过滤模拟
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://wap.kgpmap.asia/blog/8594929.sHtMl
+
+原标题：看懂报错日志快速定位问题
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：http://wap.kgpmap.asia/blog/9602414.sHtMl
+
+原标题：文件描述符优化进程卡死修复
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://wap.kgpmap.asia/blog/9616950.sHtMl
+
+原标题：golang 项目 makefile 脚本编写
+简介：定时任务周期调度 demo 开发，实现简单定时调度程序，按时间周期执行业务逻辑，理解定时任务运行机制。
+ | 原文链接：http://wap.kgpmap.asia/blog/1815037.sHtMl
+
+原标题：优化实践：LRU本地缓存优化热点访问性能
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://wap.kgpmap.asia/blog/7639903.sHtMl
+
+原标题：golang mysql limit 大分页优化
+简介：golang 系统 IO 阻塞 goroutine 场景，理解系统调用阻塞 M，P 会调度其他 M，掌握 go 调度行为。
+ | 原文链接：http://wap.kgpmap.asia/blog/7741027.sHtMl
+
+原标题：设计思考：系统容量评估架构前期估算思路
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://wap.kgpmap.asia/blog/9393259.sHtMl
+
+原标题：异步编程 Promise 执行流程解析
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：http://wap.kgpmap.asia/blog/3002477.sHtMl
+
+原标题：nodejs http 服务性能调优实战
+简介：数据库 utf8mb4 支持 emoji 存储，数据库字段设置 utf8mb4 字符集，完整支持 emoji 表情存储入库。
+ | 原文链接：http://wap.kgpmap.asia/blog/0380237.sHtMl
+
+原标题：Debug：分页偏移量过大数据库查询性能暴跌
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://wap.kgpmap.asia/blog/0679033.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang 系统设计大文件上传架构
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://wap.kgpmap.asia/blog/0468137.sHtMl
+
+原标题：设计思考：业务系统如何做故障隔离架构
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://wap.kgpmap.asia/blog/4891366.sHtMl
+
+原标题：集成测试业务流程编写示例
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://wap.kgpmap.asia/blog/7493783.sHtMl
+
+原标题：架构复盘：消息队列在业务系统中边界与最佳实践
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://wap.kgpmap.asia/blog/9661471.sHtMl
+
+原标题：golang 系统设计防爬虫简单策略
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://wap.kgpmap.asia/blog/1928029.sHtMl
+
+原标题：优化实践：Redis管道、批量命令减少网络往返
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://wap.kgpmap.asia/blog/3012477.sHtMl
+
+原标题：全局时间标准统一逻辑错乱修复
+简介：golang gorm 软删除实现逻辑，Gorm 开启软删除，删除数据仅标记，数据保留可恢复，满足业务数据留存。
+ | 原文链接：http://wap.kgpmap.asia/blog/3834761.sHtMl
+
+原标题：golang mysql 行锁表锁场景区分
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://wap.kgpmap.asia/blog/3013477.sHtMl
+
+原标题：数据库 utf8mb4 支持 emoji 存储
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：http://wap.kgpmap.asia/blog/0480236.sHtMl
+
+原标题：日志敏感信息脱敏泄露防护
+简介：golang accept 错误循环崩溃处理，accept 返回系统错误，处理临时错误，避免死循环占满 CPU。
+ | 原文链接：http://wap.kgpmap.asia/blog/0446814.sHtMl
+
+原标题：DNS 解析异常第三方调用故障
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：http://wap.kgpmap.asia/blog/9389275.sHtMl
+
+原标题：程序性能指标 CPU 内存监控
+简介：golang word 文档生成处理 go 方案，go 生成 word 文档报表，填充文本表格，输出 docx 文件。
+ | 原文链接：http://wap.kgpmap.asia/blog/3045814.sHtMl
+
+原标题：缓存基础原理与简单代码实现
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：http://wap.kgpmap.asia/blog/8629078.sHtMl
+
+原标题：Practice：实现请求ID透传全链路日志实践
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：http://wap.kgpmap.asia/blog/5551579.sHtMl
+
+原标题：golang gin 中间件执行顺序讲解
+简介：golang go 随机数安全与非安全，math/rand 伪随机与 crypto/rand 密码学安全随机，区分业务场景。
+ | 原文链接：http://wap.kgpmap.asia/blog/0051374.sHtMl
+
+原标题：golang 系统设计配置热更新不重启服务实现
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：http://wap.kgpmap.asia/blog/4834468.sHtMl
+
+原标题：前端虚拟列表大数据渲染优化
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://wap.kgpmap.asia/blog/0369225.sHtMl
+
+原标题：Git commit 钩子提交规范校验
+简介：golang 互斥锁读写锁并发安全，互斥锁读写锁实操，保护共享变量，解决多协程并发读写数据竞争。
+ | 原文链接：http://wap.kgpmap.asia/blog/5044760.sHtMl
+
+?
