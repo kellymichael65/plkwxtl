@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：本地简易配置中心动态管理
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://wap.dtowtt.asia/blog/9786579.sHtMl
+
+原标题：golang 系统设计告警规则阈值设置方法论
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://wap.dtowtt.asia/blog/1579892.sHtMl
+
+原标题：Practice：实现请求body重复读取中间件实践
+简介：golang go1.18 + 泛型基础实操，go 泛型基础语法，泛型函数泛型类型，实现通用工具函数。
+ | 原文链接：http://wap.dtowtt.asia/blog/9365677.sHtMl
+
+原标题：效率笔记：Git高级命令日常开发高频使用汇总
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://wap.dtowtt.asia/blog/3679091.sHtMl
+
+原标题：设计实践：如何设计可扩展业务数据库表结构
+简介：限流窗口绕过漏洞修复方案，修复限流时间窗口漏洞，避免攻击者绕过限流规则，保障接口防护有效。
+ | 原文链接：http://wap.dtowtt.asia/blog/1567856.sHtMl
+
+原标题：golang 系统设计 protobuf 可选字段使用技巧
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://wap.dtowtt.asia/blog/2476881.sHtMl
+
+原标题：golang 表单文件大小限制配置
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://wap.dtowtt.asia/blog/4700104.sHtMl
+
+原标题：golang http grpc 全链路埋点示例
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://wap.dtowtt.asia/blog/4801022.sHtMl
+
+原标题：Issue：容器日志驱动配置错误日志全部丢失
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：http://wap.dtowtt.asia/blog/4886797.sHtMl
+
+原标题：golang github actions 多平台构建
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://wap.dtowtt.asia/blog/1476781.sHtMl
+
+原标题：golang jaeger 链路追踪 go 接入
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：http://wap.dtowtt.asia/blog/0909878.sHtMl
+
+原标题：golang mongodb 索引优化查询速度
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://wap.dtowtt.asia/blog/3709009.sHtMl
+
+原标题：Practice：模拟磁盘满，验证服务降级表现
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://wap.dtowtt.asia/blog/8719868.sHtMl
+
+原标题：Hands‑on：简易短链接服务完整开发实践
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：http://wap.dtowtt.asia/blog/9335467.sHtMl
+
+原标题：golang 系统设计压测工具 wrk 使用实操
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：http://wap.dtowtt.asia/blog/0952311.sHtMl
+
+原标题：实战项目：Nginx限速、限流、防爬虫配置实践
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://wap.dtowtt.asia/blog/1656767.sHtMl
+
+原标题：golang 系统设计缓存与数据库一致性权衡
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：http://wap.dtowtt.asia/blog/9233456.sHtMl
+
+原标题：移动端适配 rem vw 方案对比
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://wap.dtowtt.asia/blog/2564442.sHtMl
+
+原标题：golang es 映射 mapping 设计避坑
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：http://wap.dtowtt.asia/blog/7011134.sHtMl
+
+原标题：golang 系统设计字段命名类型选择最佳实践
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：http://wap.dtowtt.asia/blog/3775746.sHtMl
+
+原标题：Practice：实现熔断降级组件简单原型代码
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://wap.dtowtt.asia/blog/6097657.sHtMl
+
+原标题：nestjs 拦截器过滤器管道实战
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://wap.dtowtt.asia/blog/7023132.sHtMl
+
+原标题：从零搭建简单Mock接口服务
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://wap.dtowtt.asia/blog/7901213.sHtMl
+
+原标题：快速入门异步编程基础模型
+简介：golang go 模板执行错误捕获，捕获模板执行错误，防止模板错误直接返回空白页面。
+ | 原文链接：http://wap.dtowtt.asia/blog/3455575.sHtMl
+
+原标题：极简 API 网关路由转发实现
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://wap.dtowtt.asia/blog/1646423.sHtMl
+
+原标题：golang docker 镜像体积优化技巧
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://wap.dtowtt.asia/blog/8124355.sHtMl
+
+原标题：快速上手搭建简易内网测试服务
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：http://wap.dtowtt.asia/blog/0321802.sHtMl
+
+原标题：前后端会话登录状态持久化
+简介：golang 工具函数库封装思路，Go 通用工具库封装思路，错误处理、类型转换，业务项目复用工具代码。
+ | 原文链接：http://wap.dtowtt.asia/blog/6887888.sHtMl
+
+原标题：零基础理解数据库事务基础ACID概念
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：http://wap.dtowtt.asia/blog/0543302.sHtMl
+
+原标题：Nginx 静态代理负载均衡全套配置
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：http://wap.dtowtt.asia/blog/2535443.sHtMl
+
+原标题：Hands‑on：简易跨进程通信demo开发实践
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：http://wap.dtowtt.asia/blog/9202030.sHtMl
+
+原标题：golang prometheus 指标暴露实现
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://wap.dtowtt.asia/blog/1434343.sHtMl
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://wap.dtowtt.asia/blog/5786900.sHtMl
+
+原标题：全局时间标准统一逻辑错乱修复
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://wap.dtowtt.asia/blog/3891979.sHtMl
+
+原标题：Hands‑on：简易验证码生成校验后端实践
+简介：golang os.Signal 信号监听完整示例，signal.Notify 监听信号，缓冲 channel 防止信号丢失。
+ | 原文链接：http://wap.dtowtt.asia/blog/1255657.sHtMl
+
+原标题：实战：Redis管道批量操作性能优化实践
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：http://wap.dtowtt.asia/blog/1455898.sHtMl
+
+原标题：golang 系统设计分布式事务几种方案
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://wap.dtowtt.asia/blog/9864308.sHtMl
+
+原标题：性能复盘：消息队列大量小消息性能问题优化
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://wap.dtowtt.asia/blog/1042111.sHtMl
+
+原标题：部署实践：多实例服务部署无状态改造
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：http://wap.dtowtt.asia/blog/4782223.sHtMl
+
+原标题：定时任务重复执行分布式锁
+简介：Nginx 丢失请求头配置修正，修复 Nginx 代理转发丢失请求头配置，保证上游服务拿到完整请求头信息。
+ | 原文链接：http://wap.dtowtt.asia/blog/2679701.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang kafka 消息丢失重复消费
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：http://wap.dtowtt.asia/blog/6002333.sHtMl
+
+原标题：实战：Docker资源监控查看容器状态实操
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://wap.dtowtt.asia/blog/5119090.sHtMl
+
+原标题：架构笔记：业务操作审计日志系统架构设计
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：http://wap.dtowtt.asia/blog/8102991.sHtMl
+
+原标题：批量操作分批处理防止 OOM
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：http://wap.dtowtt.asia/blog/2660998.sHtMl
+
+原标题：实战：搭建日志收集分析简易完整演示环境
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://wap.dtowtt.asia/blog/9134533.sHtMl
+
+原标题：WSL 文件权限访问异常修复
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：http://wap.dtowtt.asia/blog/6100888.sHtMl
+
+原标题：快速入门环境区分：开发、测试、生产环境
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://wap.dtowtt.asia/blog/0336980.sHtMl
+
+原标题：golang k8s job 一次性任务执行
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://wap.dtowtt.asia/blog/3656552.sHtMl
+
+原标题：入门实践：简易进度条CLI工具实现demo
+简介：用户敏感数据脱敏代码实现，编写数据脱敏工具，对手机号、身份证做脱敏处理，防止敏感信息直接泄露。
+ | 原文链接：http://wap.dtowtt.asia/blog/7877990.sHtMl
+
+原标题：开发复盘：异步消息解耦业务流程落地实践
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://wap.dtowtt.asia/blog/2564132.sHtMl
+
+原标题：性能笔记：连接池参数调优数据库RPC连接池
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：http://wap.dtowtt.asia/blog/9234687.sHtMl
+
+原标题：开发代理服务网络限制解决
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：http://wap.dtowtt.asia/blog/9006971.sHtMl
+
+原标题：开发记录：网关实现接口鉴权、限流、日志打印
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://wap.dtowtt.asia/blog/1567798.sHtMl
+
+原标题：全平台系统环境变量配置
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://wap.dtowtt.asia/blog/6009291.sHtMl
+
+原标题：部署复盘：配置不要硬编码进镜像最佳实践
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://wap.dtowtt.asia/blog/0234426.sHtMl
+
+原标题：golang 系统设计防爬虫简单策略
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://wap.dtowtt.asia/blog/6556201.sHtMl
+
+原标题：golang goroutine 协程基础实操
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://wap.dtowtt.asia/blog/3139746.sHtMl
+
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：golang makefile 多平台编译脚本，makefile 一键交叉编译多平台二进制，打包镜像，执行测试。
+ | 原文链接：http://wap.dtowtt.asia/blog/2910696.sHtMl
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://wap.dtowtt.asia/blog/0453465.sHtMl
+
+原标题：实战：Redis管道批量操作性能优化实践
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://wap.dtowtt.asia/blog/4435367.sHtMl
+
+原标题：Hands‑on：简易链路追踪原型开发实践
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：http://wap.dtowtt.asia/blog/2487634.sHtMl
+
+原标题：设计思考：分布式ID系统架构选型对比
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://wap.dtowtt.asia/blog/6579668.sHtMl
+
+原标题：golang 系统设计内部 rpc 接口设计原则梳理
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://wap.dtowtt.asia/blog/3241311.sHtMl
+
+原标题：golang k8s 命名空间资源隔离方案
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://wap.dtowtt.asia/blog/2366390.sHtMl
+
+原标题：CI 流水线超时时间延长配置
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://wap.dtowtt.asia/blog/3707846.sHtMl
+
+原标题：对象存储上传下载权限实操
+简介：golang 模板函数自定义拓展，自定义 template 模板函数，在 html 模板调用自定义逻辑处理数据。
+ | 原文链接：http://wap.dtowtt.asia/blog/2023010.sHtMl
+
+原标题：实践：实现Redis分布式锁完整可运行代码
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：http://wap.dtowtt.asia/blog/6812889.sHtMl
+
+原标题：Nginx 缓冲区调优大文件上传
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://wap.dtowtt.asia/blog/3685289.sHtMl
+
+原标题：golang 系统设计配置敏感信息加密存储方案
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：http://wap.dtowtt.asia/blog/8031018.sHtMl
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://wap.dtowtt.asia/blog/5139666.sHtMl
+
+原标题：SourceMap 生成线上报错定位
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://wap.dtowtt.asia/blog/4353157.sHtMl
+
+原标题：复盘总结：线上故障完整复盘报告模板示例
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：http://wap.dtowtt.asia/blog/6574379.sHtMl
+
+原标题：多环境配置中心灵活切换方案
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：http://wap.dtowtt.asia/blog/3265349.sHtMl
+
+原标题：快速上手简单的限流逻辑模拟实现
+简介：全局时间标准统一逻辑错乱修复，全服务统一使用同一时间标准，不要混用本地时间 UTC，修复时间逻辑 bug。
+ | 原文链接：http://wap.dtowtt.asia/blog/7617670.sHtMl
+
+原标题：Security：RPC调用身份认证安全加固
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://wap.dtowtt.asia/blog/8240032.sHtMl
+
+原标题：运维笔记：备份策略数据库定时备份脚本
+简介：消息队列消费堆积扩容处理，消息大量堆积时，扩容消费实例，优化消费逻辑，加快消息处理速度。
+ | 原文链接：http://wap.dtowtt.asia/blog/1020435.sHtMl
+
+原标题：golang 系统设计 sql 注入 xss 防护实践
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://wap.dtowtt.asia/blog/3243425.sHtMl
+
+原标题：golang 日志 zap 结构化日志实践
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://wap.dtowtt.asia/blog/4810873.sHtMl
+
+原标题：golang 系统设计 pr 评审合并完整流程
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：http://wap.dtowtt.asia/blog/6467425.sHtMl
+
+原标题：golang 系统设计故障演练简单思路
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://wap.dtowtt.asia/blog/7465637.sHtMl
+
+三、实战开发｜Practice
+原标题：架构笔记：业务操作审计日志系统架构设计
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://wap.dtowtt.asia/blog/6566357.sHtMl
+
+原标题：定时任务周期调度 demo 开发
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://wap.dtowtt.asia/blog/9244466.sHtMl
+
+原标题：TLS 版本兼容 HTTPS 握手失败
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：http://wap.dtowtt.asia/blog/5010114.sHtMl
+
+原标题：vite 插件开发自定义构建逻辑
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://wap.dtowtt.asia/blog/2366800.sHtMl
+
+原标题：调优方案：CDN优化静态资源访问延迟
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：http://wap.dtowtt.asia/blog/8454577.sHtMl
+
+原标题：数据库分表路由写入分片修正
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://wap.dtowtt.asia/blog/4885870.sHtMl
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://wap.dtowtt.asia/blog/4801213.sHtMl
+
+原标题：大事务拆分防止连接池耗尽
+简介：golang go 版本管理 go install 安装工具，go install 安装指定版本 go 工具，管理本地 go 工具版本。
+ | 原文链接：http://wap.dtowtt.asia/blog/7463460.sHtMl
+
+原标题：项目实践：消息队列消息堆积模拟处理实践
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://wap.dtowtt.asia/blog/0918670.sHtMl
+
+原标题：业务幂等键设计防重复逻辑
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：http://wap.dtowtt.asia/blog/7534546.sHtMl
+
+原标题：Practice：实现接口mock动态返回不同响应
+简介：Nginx 丢失请求头配置修正，修复 Nginx 代理转发丢失请求头配置，保证上游服务拿到完整请求头信息。
+ | 原文链接：http://wap.dtowtt.asia/blog/1567799.sHtMl
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：http://wap.dtowtt.asia/blog/6013141.sHtMl
+
+原标题：限流组件计数器令牌桶模式实现
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：http://wap.dtowtt.asia/blog/8121335.sHtMl
+
+原标题：DNS TTL 配置域名切换生效
+简介：golang go 模板执行错误捕获，捕获模板执行错误，防止模板错误直接返回空白页面。
+ | 原文链接：http://wap.dtowtt.asia/blog/2566576.sHtMl
+
+原标题：实践：API错误统一捕获与告警通知实践
+简介：前端打包分包加载提速方案，前端打包做代码分包，拆分大 bundle，页面按需加载，提升首屏加载速度。
+ | 原文链接：http://wap.dtowtt.asia/blog/8124515.sHtMl
+
+原标题：Security：开源项目安全审计简易检查清单
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：http://wap.dtowtt.asia/blog/4022680.sHtMl
+
+原标题：Performance：后端接口性能优化完整分析流程
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://wap.dtowtt.asia/blog/8356702.sHtMl
+
+原标题：配置外部化线上部署防错误
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://wap.dtowtt.asia/blog/3723580.sHtMl
+
+原标题：Practice：实现请求ID透传全链路日志实践
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://wap.dtowtt.asia/blog/9391368.sHtMl
+
+原标题：golang 简单爬虫请求防封禁
+简介：golang word 文档生成处理 go 方案，go 生成 word 文档报表，填充文本表格，输出 docx 文件。
+ | 原文链接：http://wap.dtowtt.asia/blog/0260256.sHtMl
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://wap.dtowtt.asia/blog/4819697.sHtMl
+
+原标题：golang 链路 traceId 透传中间件
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：http://wap.dtowtt.asia/blog/2602581.sHtMl
+
+原标题：Architecture：对象存储接入业务整体架构
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://wap.dtowtt.asia/blog/8489139.sHtMl
+
+原标题：项目实践：幂等表实现接口幂等业务实践
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：http://wap.dtowtt.asia/blog/1514566.sHtMl
+
+原标题：安全笔记：CORS跨域配置错误安全风险
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://wap.dtowtt.asia/blog/0703580.sHtMl
+
+原标题：golang lru 缓存淘汰算法编写
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：http://wap.dtowtt.asia/blog/2892257.sHtMl
+
+原标题：golang 系统设计主键 id 选型雪花自增对比
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://wap.dtowtt.asia/blog/9672369.sHtMl
+
+原标题：快速入门：API接口调试完整实操步骤
+简介：全局时间标准统一逻辑错乱修复，全服务统一使用同一时间标准，不要混用本地时间 UTC，修复时间逻辑 bug。
+ | 原文链接：http://wap.dtowtt.asia/blog/1574913.sHtMl
+
+原标题：Architecture：CI/CD流水线架构完整设计思考
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://wap.dtowtt.asia/blog/3814690.sHtMl
+
+原标题：Security：文件上传漏洞攻击面完整防护方案
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：http://wap.dtowtt.asia/blog/9482480.sHtMl
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://wap.dtowtt.asia/blog/0480058.sHtMl
+
+原标题：golang 系统设计单元测试 mock 外部依赖技巧
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://wap.dtowtt.asia/blog/9386681.sHtMl
+
+原标题：复盘总结：微服务改造踩坑经验总结记录
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://wap.dtowtt.asia/blog/4710146.sHtMl
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://wap.dtowtt.asia/blog/6347136.sHtMl
+
+原标题：新手指南：看懂开源项目的Issue与PR
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：http://wap.dtowtt.asia/blog/3925691.sHtMl
+
+原标题：golang minio 对象存储接口开发
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：http://wap.dtowtt.asia/blog/9569558.sHtMl
+
+原标题：golang 系统设计序列化性能选型对比
+简介：golang 读写分离 gorm 实现主从切换，gorm 配置主库写入从库查询，读写分离分担数据库查询压力。
+ | 原文链接：http://wap.dtowtt.asia/blog/8167113.sHtMl
+
+原标题：安全笔记：Git仓库密钥硬编码泄露处理方案
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://wap.dtowtt.asia/blog/7586001.sHtMl
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://wap.dtowtt.asia/blog/1493569.sHtMl
+
+原标题：实战：接口压力测试实操，定位系统瓶颈
+简介：golang word 文档生成处理 go 方案，go 生成 word 文档报表，填充文本表格，输出 docx 文件。
+ | 原文链接：http://wap.dtowtt.asia/blog/8158026.sHtMl
+
+四、架构设计｜Architecture
+原标题：Debug：时间回拨，定时任务调度逻辑错乱
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：http://wap.dtowtt.asia/blog/5247801.sHtMl
+
+原标题：golang 系统设计故障定位排查通用步骤方法论
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：http://wap.dtowtt.asia/blog/3725623.sHtMl
+
+原标题：一次数据库死锁现场分析与解决方案记录
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://wap.dtowtt.asia/blog/2560136.sHtMl
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：http://wap.dtowtt.asia/blog/4812257.sHtMl
+
+原标题：安全实践：API密钥管理轮换最佳实践
+简介：进程线程并发基础概念讲解，区分进程与线程，讲解调度逻辑，理解并发执行原理，为高并发业务开发打基础。
+ | 原文链接：http://wap.dtowtt.asia/blog/7235703.sHtMl
+
+原标题：golang 系统设计网络 io 模型 epoll 原理讲解
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：http://wap.dtowtt.asia/blog/4824602.sHtMl
+
+原标题：架构笔记：分库分表中间件选型业务约束
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：http://wap.dtowtt.asia/blog/4936802.sHtMl
+
+原标题：运维笔记：服务器定时任务运维脚本编写
+简介：多版本开发环境共存配置，实现同一工具多版本并存，快速切换不同版本，适配不同项目对版本的差异化需求。
+ | 原文链接：http://wap.dtowtt.asia/blog/9325910.sHtMl
+
+原标题：golang 系统设计网关性能压测优化简单思路
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://wap.dtowtt.asia/blog/0369035.sHtMl
+
+原标题：golang 错误包装 errors.wrap 用法
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：http://wap.dtowtt.asia/blog/9802260.sHtMl
+
+原标题：golang 系统设计防重复提交实现
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：http://wap.dtowtt.asia/blog/3924691.sHtMl
+
+原标题：golang 系统设计限流服务架构讲解
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：http://wap.dtowtt.asia/blog/2614502.sHtMl
+
+原标题：golang 定时任务 cron 使用指南
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://wap.dtowtt.asia/blog/9382570.sHtMl
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：消息队列生产消费模型入门，讲解消息队列生产、存储、消费流程，理解异步解耦、削峰，掌握消息队列基础概念。
+ | 原文链接：http://wap.dtowtt.asia/blog/4126692.sHtMl
+
+原标题：AI实践：大模型生成代码后审查与重构实践
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://wap.dtowtt.asia/blog/3714592.sHtMl
+
+原标题：Git 代码冲突正确处理方式
+简介：golang bufio.Scanner 按行读取大文件，Scanner 逐行读取文本文件，处理超大日志 csv。
+ | 原文链接：http://wap.dtowtt.asia/blog/0511681.sHtMl
+
+原标题：优化实践：Redis性能调优，避免大key热key
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://wap.dtowtt.asia/blog/5269036.sHtMl
+
+原标题：golang redis hyperloglog 基数统计
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://wap.dtowtt.asia/blog/5814692.sHtMl
+
+?
