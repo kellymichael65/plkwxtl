@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计延迟队列业务实现
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：http://book.xhiwyb.asia/blog/9168712.sHtMl
+
+原标题：安全实践：容器最小化镜像减少攻击面
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://book.xhiwyb.asia/blog/7698978.sHtMl
+
+原标题：文件编码统一随机乱码修复
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://book.xhiwyb.asia/blog/5474231.sHtMl
+
+原标题：开源实践：给开源项目写单元测试贡献代码
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：http://book.xhiwyb.asia/blog/8150681.sHtMl
+
+原标题：echarts 大数据渲染性能调优
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://book.xhiwyb.asia/blog/9605848.sHtMl
+
+原标题：golang 系统设计分布式锁看门狗续期原理理解
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://book.xhiwyb.asia/blog/0646259.sHtMl
+
+原标题：性能复盘：系统上下文切换过高性能下降调优
+简介：文件读写与异常捕获代码示例，演示文件读取写入操作，增加异常捕获逻辑，规避文件不存在、权限不足导致崩溃。
+ | 原文链接：http://book.xhiwyb.asia/blog/2968583.sHtMl
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：http://book.xhiwyb.asia/blog/1602448.sHtMl
+
+原标题：GitHub 项目提交推送完整流程讲解
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：http://book.xhiwyb.asia/blog/0481693.sHtMl
+
+原标题：前端错误监控上报系统搭建
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://book.xhiwyb.asia/blog/2938263.sHtMl
+
+原标题：﻿【GettingStarted】从零搭建本地开发环境完整指南
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://book.xhiwyb.asia/blog/8291716.sHtMl
+
+原标题：golang 系统设计 rest 分页排序过滤参数规范
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：http://book.xhiwyb.asia/blog/5284805.sHtMl
+
+原标题：golang 批量任务协程控制防雪崩
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://book.xhiwyb.asia/blog/1820304.sHtMl
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://book.xhiwyb.asia/blog/7182808.sHtMl
+
+原标题：DevOps：Docker镜像优化，减小镜像体积实践
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：http://book.xhiwyb.asia/blog/8603737.sHtMl
+
+原标题：TLS 版本兼容 HTTPS 握手失败
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://book.xhiwyb.asia/blog/8494030.sHtMl
+
+原标题：Architecture：灰度、蓝绿、金丝雀发布架构对比
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：http://book.xhiwyb.asia/blog/5261403.sHtMl
+
+原标题：入门实践：实现简单文件读写功能
+简介：Git LFS 大文件推送失败解决，配置 Git LFS，处理仓库大文件，解决大文件推送报错推送失败。
+ | 原文链接：http://book.xhiwyb.asia/blog/6935883.sHtMl
+
+原标题：golang 系统设计日志级别业务使用原则梳理
+简介：golang k8s go 服务 yaml 资源编写，k8s 部署 go 应用 deployment service，健康检查资源限制配置。
+ | 原文链接：http://book.xhiwyb.asia/blog/1030091.sHtMl
+
+原标题：运维笔记：系统内核参数调优生产服务器
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://book.xhiwyb.asia/blog/8179926.sHtMl
+
+原标题：golang docker 镜像构建最佳实践
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：http://book.xhiwyb.asia/blog/4824459.sHtMl
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://book.xhiwyb.asia/blog/5946734.sHtMl
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://book.xhiwyb.asia/blog/6350226.sHtMl
+
+原标题：线上接口超时故障排查思路
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://book.xhiwyb.asia/blog/9155722.sHtMl
+
+原标题：golang 系统设计告警规则阈值设置方法论
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://book.xhiwyb.asia/blog/5949581.sHtMl
+
+原标题：golang redis 五种数据结构实战
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://book.xhiwyb.asia/blog/7180392.sHtMl
+
+原标题：静态站点自动部署发布方案
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://book.xhiwyb.asia/blog/1523737.sHtMl
+
+原标题：golang 系统设计配置中心核心能力梳理讲解
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：http://book.xhiwyb.asia/blog/3723547.sHtMl
+
+原标题：开发复盘：导出大文件避免内存溢出实现方案
+简介：定时任务周期调度 demo 开发，实现简单定时调度程序，按时间周期执行业务逻辑，理解定时任务运行机制。
+ | 原文链接：http://book.xhiwyb.asia/blog/1808148.sHtMl
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://book.xhiwyb.asia/blog/8594039.sHtMl
+
+原标题：Security：SSRF服务端请求伪造漏洞防御
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://book.xhiwyb.asia/blog/8516928.sHtMl
+
+原标题：Git 子模块更新代码不全修复
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://book.xhiwyb.asia/blog/3050692.sHtMl
+
+原标题：新手教程：如何给开源项目提交第一个PR
+简介：golang go 应用内存使用优化手段，减少对象分配，复用对象，降低 GC 压力，减少 GC 停顿时间。
+ | 原文链接：http://book.xhiwyb.asia/blog/2049292.sHtMl
+
+原标题：golang 系统设计 webhook 回调处理架构
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://book.xhiwyb.asia/blog/3757170.sHtMl
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://book.xhiwyb.asia/blog/8591706.sHtMl
+
+原标题：接口请求重试容错机制实现
+简介：后端登录鉴权模块完整开发，实现完整登录模块，包含账号校验、令牌发放、接口鉴权整套能力。
+ | 原文链接：http://book.xhiwyb.asia/blog/1824052.sHtMl
+
+原标题：线上接口超时故障排查思路
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://book.xhiwyb.asia/blog/2940391.sHtMl
+
+原标题：golang 系统设计数据库慢查询治理方案
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：http://book.xhiwyb.asia/blog/3362455.sHtMl
+
+原标题：golang 系统设计依赖漏洞扫描修复流程
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://book.xhiwyb.asia/blog/2122867.sHtMl
+
+原标题：新手向：Mac/Windows开发环境差异踩坑
+简介：接口请求重试容错机制实现，封装请求重试逻辑，遇到临时网络故障自动重试，提升第三方调用稳定性。
+ | 原文链接：http://book.xhiwyb.asia/blog/9839576.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：特殊输入字符过滤解析防护
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：http://book.xhiwyb.asia/blog/5757470.sHtMl
+
+原标题：文件监控服务自动重启开发
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://book.xhiwyb.asia/blog/5362737.sHtMl
+
+原标题：安全组端口开放网络访问
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://book.xhiwyb.asia/blog/9616858.sHtMl
+
+原标题：容器软链接文件权限修复
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://book.xhiwyb.asia/blog/9616959.sHtMl
+
+原标题：项目实践：搭建个人API网关最小实现版本
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://book.xhiwyb.asia/blog/8507058.sHtMl
+
+原标题：Practice：模拟第三方接口超时服务降级验证
+简介：前后端交互跨域问题完整处理，讲解跨域产生原理，列举多种解决方案，适配开发、生产不同环境的跨域处理。
+ | 原文链接：http://book.xhiwyb.asia/blog/9581703.sHtMl
+
+原标题：实践：实现Redis分布式锁完整可运行代码
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://book.xhiwyb.asia/blog/9636958.sHtMl
+
+原标题：golang 系统设计消息大小限制业务处理方案
+简介：全局本地依赖隔离冲突规避，区分全局依赖与项目本地依赖，隔离环境，防止全局包干扰项目运行。
+ | 原文链接：http://book.xhiwyb.asia/blog/3776966.sHtMl
+
+原标题：golang 系统设计 mq 消息重复消费处理
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：http://book.xhiwyb.asia/blog/1023576.sHtMl
+
+原标题：Git 标签版本标记发布管理
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：http://book.xhiwyb.asia/blog/3789911.sHtMl
+
+原标题：快速启动：本地运行开源项目排障清单
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://book.xhiwyb.asia/blog/7617070.sHtMl
+
+原标题：golang prometheus 告警规则编写
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://book.xhiwyb.asia/blog/3049292.sHtMl
+
+原标题：golang 系统设计定时任务分布式锁
+简介：用户敏感数据脱敏代码实现，编写数据脱敏工具，对手机号、身份证做脱敏处理，防止敏感信息直接泄露。
+ | 原文链接：http://book.xhiwyb.asia/blog/6372513.sHtMl
+
+原标题：Troubleshoot：异步异常未捕获，进程悄无声息退出
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://book.xhiwyb.asia/blog/0717970.sHtMl
+
+原标题：golang 系统设计压测指标确定与分析
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://book.xhiwyb.asia/blog/3535140.sHtMl
+
+原标题：golang 系统设计序列化性能选型对比
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：http://book.xhiwyb.asia/blog/5267061.sHtMl
+
+原标题：webpack chunk 分包策略详解
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：http://book.xhiwyb.asia/blog/0490267.sHtMl
+
+原标题：入门实践：简单错误码设计与使用规范
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://book.xhiwyb.asia/blog/5936914.sHtMl
+
+原标题：nestjs 框架模块化项目搭建
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://book.xhiwyb.asia/blog/3024615.sHtMl
+
+原标题：设计思考：业务系统如何做故障隔离架构
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://book.xhiwyb.asia/blog/7481819.sHtMl
+
+原标题：golang 系统设计内部 rpc 接口设计原则梳理
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://book.xhiwyb.asia/blog/3647859.sHtMl
+
+原标题：依赖版本冲突兼容修复方案
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：http://book.xhiwyb.asia/blog/1827250.sHtMl
+
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：http://book.xhiwyb.asia/blog/6371671.sHtMl
+
+原标题：架构笔记：任务调度系统架构设计与可靠性
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：http://book.xhiwyb.asia/blog/7180595.sHtMl
+
+原标题：效率笔记：批量处理文本命令行工具实战案例
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://book.xhiwyb.asia/blog/7070582.sHtMl
+
+原标题：golang 系统设计代码安全审计简单思路
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：http://book.xhiwyb.asia/blog/2150374.sHtMl
+
+原标题：golang 系统设计 tcp 粘包拆包处理方案实现
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://book.xhiwyb.asia/blog/1524628.sHtMl
+
+原标题：部署复盘：静态资源版本哈希缓存策略
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://book.xhiwyb.asia/blog/9378147.sHtMl
+
+原标题：Practice：批量异步任务处理系统设计实现
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：http://book.xhiwyb.asia/blog/9302565.sHtMl
+
+原标题：数据库 utf8mb4 支持 emoji 存储
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://book.xhiwyb.asia/blog/1590366.sHtMl
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://book.xhiwyb.asia/blog/2761160.sHtMl
+
+原标题：golang 系统设计异步化改造业务流程思路
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://book.xhiwyb.asia/blog/8571250.sHtMl
+
+原标题：golang redis 缓存穿透解决方案
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://book.xhiwyb.asia/blog/8449925.sHtMl
+
+原标题：Troubleshoot：异步异常未捕获，进程悄无声息退出
+简介：浏览器本地存储安全使用技巧，讲解 localStorage、sessionStorage 使用边界，规避 XSS 泄露存储数据。
+ | 原文链接：http://book.xhiwyb.asia/blog/2691136.sHtMl
+
+原标题：死信队列处理消息阻塞业务
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://book.xhiwyb.asia/blog/6373625.sHtMl
+
+原标题：全局异常处理器接口返回统一
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://book.xhiwyb.asia/blog/0718130.sHtMl
+
+原标题：golang 系统设计分表 id 生成策略对比
+简介：golang 分布式锁 redis 实现，基于 Redis 实现 Go 分布式锁，解决多实例并发竞争资源问题。
+ | 原文链接：http://book.xhiwyb.asia/blog/4153625.sHtMl
+
+原标题：golang 系统设计链路查询定位慢请求实操技巧
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：http://book.xhiwyb.asia/blog/8142584.sHtMl
+
+原标题：golang 系统设计配置本地缓存降级策略方案
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://book.xhiwyb.asia/blog/6380791.sHtMl
+
+原标题：架构复盘：多实例部署业务状态无状态改造
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://book.xhiwyb.asia/blog/3051484.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 接口返回统一封装工具
+简介：golang go 比较运算符可比较类型，哪些类型可以直接 == 比较，map slice 函数不可直接比较。
+ | 原文链接：http://book.xhiwyb.asia/blog/3046372.sHtMl
+
+原标题：新手指南：本地多版本环境共存配置
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：http://book.xhiwyb.asia/blog/5257035.sHtMl
+
+原标题：OpenSource：开源项目许可证License选型指南
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：http://book.xhiwyb.asia/blog/4924700.sHtMl
+
+原标题：golang cpu pprof 性能分析实操
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：http://book.xhiwyb.asia/blog/0617958.sHtMl
+
+原标题：新手指南：虚拟机WSL开发环境入门配置
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://book.xhiwyb.asia/blog/3040203.sHtMl
+
+原标题：nodejs 进程间通信 IPC 实操
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：http://book.xhiwyb.asia/blog/6380706.sHtMl
+
+原标题：vue3 组合式 API 业务开发实战
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://book.xhiwyb.asia/blog/5158483.sHtMl
+
+原标题：调优方案：静态资源缓存头Cache‑Control优化
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://book.xhiwyb.asia/blog/2637273.sHtMl
+
+原标题：Performance：避免内存拷贝，大对象处理优化
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：http://book.xhiwyb.asia/blog/8922433.sHtMl
+
+原标题：CORS 跨域问题多种解决方案
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://book.xhiwyb.asia/blog/6710133.sHtMl
+
+原标题：大事务拆分回滚日志暴涨解决
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://book.xhiwyb.asia/blog/7479170.sHtMl
+
+原标题：golang 系统设计指标埋点代码低侵入实现
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://book.xhiwyb.asia/blog/2924524.sHtMl
+
+原标题：实战项目：Nginx限速、限流、防爬虫配置实践
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：http://book.xhiwyb.asia/blog/4168363.sHtMl
+
+原标题：踩坑：批量MQ消费失败直接无限重试消息爆炸
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：http://book.xhiwyb.asia/blog/7494658.sHtMl
+
+原标题：开发复盘：内存缓存LRU淘汰策略实现实践
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：http://book.xhiwyb.asia/blog/8725039.sHtMl
+
+原标题：新手指南：虚拟机WSL开发环境入门配置
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://book.xhiwyb.asia/blog/0815026.sHtMl
+
+原标题：Git 分支切换合并删除完整操作
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://book.xhiwyb.asia/blog/9303818.sHtMl
+
+原标题：开发复盘：分库分表本地模拟与数据路由实践
+简介：golang json 解析未知动态 json 结构，解析到 map [string] any 处理未知 json，动态读取字段。
+ | 原文链接：http://book.xhiwyb.asia/blog/2712379.sHtMl
+
+原标题：golang 系统设计联合索引设计避坑要点
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：http://book.xhiwyb.asia/blog/2904680.sHtMl
+
+原标题：跨库查询性能优化处理
+简介：golang go 代码覆盖率线上统计，单元测试覆盖率统计，找出未测试代码分支，提升测试质量。
+ | 原文链接：http://book.xhiwyb.asia/blog/5224681.sHtMl
+
+原标题：golang docker 部署 es 本地开发
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://book.xhiwyb.asia/blog/2936058.sHtMl
+
+原标题：开发记录：搭建CI/CD流水线自动构建部署项目
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：http://book.xhiwyb.asia/blog/6383813.sHtMl
+
+原标题：数据库死锁成因规避方案
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://book.xhiwyb.asia/blog/8491684.sHtMl
+
+原标题：程序日志分级输出规范实践
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://book.xhiwyb.asia/blog/0828928.sHtMl
+
+原标题：服务器 Swap 关闭提升响应速度
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://book.xhiwyb.asia/blog/0720180.sHtMl
+
+原标题：实战：基于内存实现简单消息广播组件
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：http://book.xhiwyb.asia/blog/6374514.sHtMl
+
+原标题：实战项目：容器资源限制配置压力测试实践
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://book.xhiwyb.asia/blog/9617849.sHtMl
+
+原标题：golang 分布式锁防死锁处理
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：http://book.xhiwyb.asia/blog/9481587.sHtMl
+
+原标题：golang csv 读写批量数据处理
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://book.xhiwyb.asia/blog/2736804.sHtMl
+
+原标题：坑点：版本号语义化理解错误依赖版本错乱
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：http://book.xhiwyb.asia/blog/1598047.sHtMl
+
+原标题：golang kafka 重试机制配置实操
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://book.xhiwyb.asia/blog/6389492.sHtMl
+
+原标题：灰度发布策略服务平滑升级
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：http://book.xhiwyb.asia/blog/4263462.sHtMl
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：http://book.xhiwyb.asia/blog/6080691.sHtMl
+
+原标题：Debug：分布式会话时钟不同步令牌提前失效
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：http://book.xhiwyb.asia/blog/7191393.sHtMl
+
+原标题：Security：SSRF服务端请求伪造漏洞防御
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://book.xhiwyb.asia/blog/1995738.sHtMl
+
+原标题：golang 系统设计压测环境隔离避免影响生产
+简介：程序日志分级输出规范实践，区分日志等级，规范日志打印内容，合理输出日志，方便线上问题排查定位。
+ | 原文链接：http://book.xhiwyb.asia/blog/3052361.sHtMl
+
+原标题：golang 系统设计分布式任务调度
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://book.xhiwyb.asia/blog/3069581.sHtMl
+
+原标题：Nginx 丢失请求头配置修正
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：http://book.xhiwyb.asia/blog/8850667.sHtMl
+
+原标题：golang k8s liveness readiness 探针
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：http://book.xhiwyb.asia/blog/9830130.sHtMl
+
+原标题：调优方案：消息队列消费速度优化处理堆积
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://book.xhiwyb.asia/blog/9304915.sHtMl
+
+四、架构设计｜Architecture
+原标题：Performance：JSON序列化性能优化实践
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://book.xhiwyb.asia/blog/0448361.sHtMl
+
+原标题：预编译 SQL 防注入实现
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://book.xhiwyb.asia/blog/6313415.sHtMl
+
+原标题：DevOps：Docker镜像优化，减小镜像体积实践
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://book.xhiwyb.asia/blog/4159475.sHtMl
+
+原标题：部署实践：容器优雅停机配置处理信号
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://book.xhiwyb.asia/blog/9625136.sHtMl
+
+原标题：golang k8s configmap secret 配置
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：http://book.xhiwyb.asia/blog/2836179.sHtMl
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://book.xhiwyb.asia/blog/8292706.sHtMl
+
+原标题：golang 系统设计文件存储选型对比
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://book.xhiwyb.asia/blog/0458689.sHtMl
+
+原标题：golang mysql 读写分离简单实现
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://book.xhiwyb.asia/blog/6014355.sHtMl
+
+原标题：Troubleshooting：Nginx缓冲区过小大文件上传失败
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://book.xhiwyb.asia/blog/8791791.sHtMl
+
+原标题：golang aes 对称加密解密示例
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://book.xhiwyb.asia/blog/6384693.sHtMl
+
+原标题：golang 接口返回统一封装工具
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://book.xhiwyb.asia/blog/8602526.sHtMl
+
+原标题：golang 系统设计埋点数据上报方案
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://book.xhiwyb.asia/blog/0728071.sHtMl
+
+原标题：项目依赖安全扫描漏洞防范
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：http://book.xhiwyb.asia/blog/4869471.sHtMl
+
+原标题：开发记录：敏感数据加密存储解密业务实践
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://book.xhiwyb.asia/blog/0601696.sHtMl
+
+原标题：实践：数据库回滚点业务调试实践
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：http://book.xhiwyb.asia/blog/3158364.sHtMl
+
+原标题：部署实践：服务器防火墙安全组配置实践
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：http://book.xhiwyb.asia/blog/5456782.sHtMl
+
+原标题：CPU 亲和性配置负载均衡调度
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：http://book.xhiwyb.asia/blog/6791803.sHtMl
+
+原标题：golang prometheus metrics 埋点开发
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://book.xhiwyb.asia/blog/9606837.sHtMl
+
+?
