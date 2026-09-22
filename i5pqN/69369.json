@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计结构化日志字段规范约定
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/28137725.html
+
+原标题：Architecture：API设计RESTful最佳实践与反模式
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/37124746.html
+
+原标题：快速入门Nginx基础配置，反向代理示例
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/15914724.html
+
+原标题：golang redis lua 脚本开发调试
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/92791468.html
+
+原标题：golang 系统设计内部服务契约测试简单思路
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/71569258.html
+
+原标题：golang 系统设计 webhook 回调处理架构
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/39570247.html
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/41247035.html
+
+原标题：Hands‑on：简易布隆过滤器实现与测试验证
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/85792489.html
+
+原标题：golang 系统设计 grpc http2 多路复用讲解
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/03791680.html
+
+原标题：安全实践：敏感信息加密存储传输完整方案
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/41269136.html
+
+原标题：新手指南：项目本地编译输出产物解析
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/37014803.html
+
+原标题：设计思考：系统限流熔断降级完整防护体系
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/36125702.html
+
+原标题：Practice：实现请求body重复读取中间件实践
+简介：echarts 大数据渲染性能调优，大数据量 ECharts 图表调优，数据采样、分片渲染，解决图表卡顿。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/52570258.html
+
+原标题：实战项目：HTTPS本地自签名证书配置实践
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/15081481.html
+
+原标题：golang 系统设计分布式锁看门狗续期原理理解
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/69132335.html
+
+原标题：分布式任务调度集群原型开发
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/81424556.html
+
+原标题：golang 系统设计日志系统架构思路
+简介：golang go 运行时获取编译信息，程序内部读取编译时间 git 版本，接口输出程序版本信息。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/70336566.html
+
+原标题：golang 系统设计告警风暴抑制方案实现
+简介：跨平台换行符统一异常修复，统一代码文件换行符，解决不同操作系统换行符不一致带来脚本执行异常。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/26969700.html
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/49902134.html
+
+原标题：golang 系统设计日志轮转切割防止磁盘占满
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/69202234.html
+
+原标题：方案设计：分布式分页查询架构难点处理
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/69900334.html
+
+原标题：安全实践：容器最小化镜像减少攻击面
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/81234657.html
+
+原标题：前端图片懒加载性能优化
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/48902233.html
+
+原标题：golang k8s helm chart 简单编写
+简介：golang 读写分离 gorm 实现主从切换，gorm 配置主库写入从库查询，读写分离分担数据库查询压力。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/58924448.html
+
+原标题：新手指南：虚拟机WSL开发环境入门配置
+简介：golang fasthttp 客户端连接池调优，fasthttp 客户端连接池配置，复用连接提升请求性能。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/70122336.html
+
+原标题：Hands‑on：简易邮件发送服务封装实践
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/05175635.html
+
+原标题：性能笔记：DNS缓存优化减少域名解析开销
+简介：ORM 隐式慢查询问题规避，识别 ORM 框架隐式查询，避免循环查询数据库，减少不必要慢 SQL 产生。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/32007835.html
+
+原标题：开发生产环境资源路径统一
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/65693681.html
+
+原标题：架构复盘：跨机房多活架构基础概念与代价
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/04824680.html
+
+原标题：接口限流逻辑简单模拟实现
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/70457027.html
+
+原标题：CORS 跨域问题多种解决方案
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/51358025.html
+
+原标题：Debug：序列化反序列化版本不一致解析失败
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/40026914.html
+
+原标题：开发复盘：统一错误码体系设计落地实践
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/51269238.html
+
+原标题：Troubleshooting：防火墙安全组拦截访问请求
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/50575035.html
+
+原标题：CORS 跨域问题多种解决方案
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/48248247.html
+
+原标题：WSL 文件权限访问异常修复
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/73692470.html
+
+原标题：golang docker 网络模式桥接 host
+简介：golang gin 获取客户端真实 IP，多层代理场景正确拿到用户真实访问 IP，避免拿到网关代理内网地址。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/51570258.html
+
+原标题：nodejs 单元测试 jest 实操教程
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/31346914.html
+
+原标题：请求工具封装统一异常处理
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/76792470.html
+
+原标题：golang 系统设计 k8s 集群安全配置梳理
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/48247025.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang mongodb 事务多文档使用
+简介：golang 灰度发布流量权重路由实现，根据权重切分流量，部分流量访问新版本服务，实现灰度发布。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/25025703.html
+
+原标题：golang k8s 资源请求限制配置
+简介：golang go 模块迁移从 GOPATH 到 GoMod，老项目从 GOPATH 迁移 go mod，解决依赖管理混乱问题。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/93792583.html
+
+原标题：Architecture：BFF后端聚合层架构适用场景
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/37135824.html
+
+原标题：实战：GraphQL服务搭建与CRUD实操
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/71461469.html
+
+原标题：golang 内存 pprof 定位内存泄漏
+简介：Nginx 透传真实客户端 IP 配置，配置 Nginx 把真实客户端 IP 传递后端服务，后端拿到访问者真实 IP。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/36047925.html
+
+原标题：golang 系统设计开源项目维护简单经验分享
+简介：golang go http 安全头配置实践，设置 http 安全响应头，防范 XSS、点击劫持，提升 web 服务安全性。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/30166934.html
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/49126913.html
+
+原标题：golang gin 中间件执行顺序讲解
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/60459368.html
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/62681469.html
+
+原标题：Troubleshooting：K8sPodOOMKilled完整排查流程
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/69458146.html
+
+原标题：Hands‑on：简易导出PDF后端生成demo实践
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/39047246.html
+
+原标题：golang 告警推送钉钉机器人实现
+简介：golang gin 获取客户端真实 IP，多层代理场景正确拿到用户真实访问 IP，避免拿到网关代理内网地址。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/71468136.html
+
+原标题：golang 系统设计多租户数据隔离方案
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/60681257.html
+
+原标题：golang 系统设计 api 文档 swagger redoc 落地
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/59346813.html
+
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/81579357.html
+
+原标题：架构笔记：OAuth2授权服务架构模式拆解
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/84794691.html
+
+原标题：golang 系统设计压测工具 wrk 使用实操
+简介：ORM 隐式慢查询问题规避，识别 ORM 框架隐式查询，避免循环查询数据库，减少不必要慢 SQL 产生。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/92670258.html
+
+原标题：程序预加载加快服务启动速度
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/81570368.html
+
+原标题：项目实践：数据库慢日志采集分析落地实践
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/07825595.html
+
+原标题：安全实践：接口速率限制防止暴力破解
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/38458146.html
+
+原标题：golang mysql 读写分离简单实现
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/82670358.html
+
+原标题：实战：Nginx配置静态站点、反向代理、负载均衡
+简介：golang 分布式唯一 id 多种方案对比，雪花、redis、uuid 对比各方案优缺点，指导业务选型使用。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/69358946.html
+
+原标题：WebSocket 聊天室实时通讯开发
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/58348813.html
+
+原标题：golang etcd watch 监听配置变更
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/29049224.html
+
+原标题：golang k8s 监控 prometheus 部署
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/58258146.html
+
+原标题：服务器 Swap 关闭提升响应速度
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/93714792.html
+
+原标题：Practice：实现限流之后友好业务返回处理
+简介：静态资源 404 路径打包修复，修复打包后静态资源访问 404，调整资源输出路径，保证资源正常加载。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/58247038.html
+
+原标题：golang github actions 完整工作流示例
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/53680368.html
+
+原标题：部署实践：DockerCompose管理多服务环境
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/14892572.html
+
+原标题：rebase 操作防止代码丢失
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/17825881.html
+
+原标题：golang mysql limit 大分页优化
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/04890581.html
+
+原标题：golang docker 部署 es 本地开发
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/71679250.html
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/17156911.html
+
+原标题：Architecture：安全防护架构XSSCSRFSQL注入防御
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/74792558.html
+
+原标题：Practice：模拟磁盘满，验证服务降级表现
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/82791479.html
+
+原标题：Practice：实现IP黑名单拦截中间件实践
+简介：golang time 时间格式化避坑，Go 时间格式化参考时间牢记，处理时间解析格式化，解决时间输出错乱。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/46247046.html
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/04815882.html
+
+原标题：安全笔记：CORS跨域配置错误安全风险
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/51371135.html
+
+原标题：golang ci 流水线制品仓库上传下载
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/73491478.html
+
+原标题：golang kafka 监控指标简单梳理
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/37125805.html
+
+三、实战开发｜Practice
+原标题：Issue：文件句柄耗尽，服务缓慢卡死复盘
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/93681379.html
+
+原标题：请求工具封装统一异常处理
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/03892479.html
+
+原标题：入门实践：简易进度条CLI工具实现demo
+简介：golang json number 数字不转 float64，使用 json.Number 保留原始数字字符串，防止大数字精度丢失。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/04803680.html
+
+原标题：内存广播本地进程消息通知
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/17247915.html
+
+原标题：Practice：模拟热点key，验证缓存防护策略
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/51371448.html
+
+原标题：消息队列重复消费业务处理
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/58247945.html
+
+原标题：文件监控服务自动重启开发
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/72679136.html
+
+原标题：Architecture：安全防护架构XSSCSRFSQL注入防御
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/29247915.html
+
+原标题：golang 系统设计 span 埋点业务代码最小侵入思路
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/06014701.html
+
+原标题：golang ci 流水线制品仓库上传下载
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/71580356.html
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/07804692.html
+
+原标题：golang 系统设计数据脱敏架构实现
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/20266926.html
+
+原标题：golang es 更新文档注意版本冲突
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/82784682.html
+
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/92603690.html
+
+原标题：golang prometheus 指标暴露实现
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/06025804.html
+
+原标题：新手教程：gitstash暂存工作区变更实操
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/38246915.html
+
+原标题：RPC 接口字段增减兼容处理
+简介：golang go 调用动态链接库 so 文件，go 加载 so 动态库调用函数，复用编译好的 C 动态库。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/06014704.html
+
+原标题：本地简易配置中心动态管理
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/19190785.html
+
+原标题：Debug：HTTPS握手失败TLS版本兼容问题
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/81123387.html
+
+原标题：线上故障：热点Key打满RedisCPU节点过载
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/02457901.html
+
+原标题：golang 系统设计缓存与数据库一致性权衡
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/36679033.html
+
+原标题：golang 单元测试 table‑driven
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/98126912.html
+
+原标题：golang 系统设计内部服务 mock 集成测试方案
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/65681472.html
+
+原标题：调优方案：CDN优化静态资源访问延迟
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/06904790.html
+
+原标题：golang mysql exists in 性能对比
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/58257926.html
+
+原标题：架构笔记：WebSocket大规模连接服务架构
+简介：golang hertz http 框架快速上手，hertz 高性能 http 框架，路由中间件参数校验快速开发接口服务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/84600558.html
+
+原标题：开发记录：网关实现接口鉴权、限流、日志打印
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/95681471.html
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/26015703.html
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/47236806.html
+
+原标题：快速入门消息队列基础概念模型
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/93694793.html
+
+原标题：避坑：Spring事务传播行为理解错误事务失效
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/84580470.html
+
+原标题：golang 重试退避机制代码实现
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/81681380.html
+
+原标题：站内邮件消息通知功能开发
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/52279468.html
+
+原标题：golang 系统设计锁优化减少竞争提升吞吐
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/15892580.html
+
+原标题：golang k8s 基础概念 pod deployment
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/07025812.html
+
+原标题：Practice：模拟主从延迟业务兼容方案实践
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/40180136.html
+
+原标题：实战：搭建日志收集分析简易完整演示环境
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/18813681.html
+
+原标题：方案对比：轮询长轮询WebSocket推送架构选型
+简介：golang multipart 表单文件上传解析，服务端解析 multipart 表单，获取上传文件与表单字段。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/71569147.html
+
+原标题：项目实践：灰度发布简易方案落地实践
+简介：游标分页大数据查询性能提升，使用游标分页替代偏移分页，解决大数据 offset 分页性能越来越差问题。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/26027036.html
+
+原标题：golang 系统设计日志采样降低存储开销方案
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/48246814.html
+
+四、架构设计｜Architecture
+原标题：golang 系统设计日志级别业务使用原则梳理
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/62681680.html
+
+原标题：golang mongodb 分页性能优化技巧
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/93792579.html
+
+原标题：架构复盘：数据库主从架构设计与延迟应对方案
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/51591470.html
+
+原标题：golang kafka 同步异步消费对比
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/29035714.html
+
+原标题：golang defer panic 异常处理
+简介：golang time 时间格式化参考时间牢记，2006‑01‑02T15:04:05Z07:00，掌握 go 时间格式化关键点。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/59247258.html
+
+原标题：golang 内存缓存简单实现方案
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/47237913.html
+
+原标题：golang gorm 批量插入性能调优
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/08904803.html
+
+原标题：Security：Web常见安全漏洞原理与修复清单
+简介：代码格式化工具团队统一风格，接入格式化工具，统一全团队代码书写风格，减少格式类 git 冲突。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/60458034.html
+
+原标题：设计思考：业务系统如何做故障隔离架构
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/65613479.html
+
+原标题：效率笔记：批量处理文本命令行工具实战案例
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/15913581.html
+
+原标题：golang 链路追踪简易实现方案
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/29357035.html
+
+原标题：前端打包产物体积压缩优化
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/04882589.html
+
+原标题：golang 系统设计 protobuf 可选字段使用技巧
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/69447048.html
+
+原标题：设计思考：业务系统如何设计优雅失败架构
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/60413801.html
+
+原标题：部署实践：容器优雅停机配置处理信号
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/15935804.html
+
+原标题：方案对比：轮询长轮询WebSocket推送架构选型
+简介：Nginx 透传真实客户端 IP 配置，配置 Nginx 把真实客户端 IP 传递后端服务，后端拿到访问者真实 IP。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/27934682.html
+
+原标题：开源项目构建失败排查步骤
+简介：进程线程并发基础概念讲解，区分进程与线程，讲解调度逻辑，理解并发执行原理，为高并发业务开发打基础。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/15903690.html
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：http://www.blog.gogdf.cn/hpvwy/64634146.html
+
+?
