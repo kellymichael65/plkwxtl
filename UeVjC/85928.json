@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计代码评审高效沟通原则思路
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://wap.ponrol.asia/blog/1826960.sHtMl
+
+原标题：golang 系统设计单元测试编写原则最佳实践
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://wap.ponrol.asia/blog/8838171.sHtMl
+
+原标题：Architecture：限流计数器架构时间窗口选型对比
+简介：golang 项目目录分层规范设计，Go 后端项目目录分层规范，按领域分层，提高项目可读性可维护性。
+ | 原文链接：http://wap.ponrol.asia/blog/5964038.sHtMl
+
+原标题：golang 系统设计创建更新时间自动维护方案
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://wap.ponrol.asia/blog/3049583.sHtMl
+
+原标题：Issue：本地可以访问，容器内部网络不通
+简介：文件监控服务自动重启开发，监控项目文件变更，代码修改自动重启服务，提升本地开发调试效率。
+ | 原文链接：http://wap.ponrol.asia/blog/7402826.sHtMl
+
+原标题：实战：Nginx配置静态站点、反向代理、负载均衡
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://wap.ponrol.asia/blog/0745143.sHtMl
+
+原标题：复盘总结：技术方案文档模板架构设计文档
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：http://wap.ponrol.asia/blog/8595840.sHtMl
+
+原标题：golang gorm 批量插入性能调优
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：http://wap.ponrol.asia/blog/6161417.sHtMl
+
+原标题：golang 系统设计批量处理优化业务性能
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://wap.ponrol.asia/blog/4151463.sHtMl
+
+原标题：项目实践：消息队列消息堆积模拟处理实践
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://wap.ponrol.asia/blog/6272515.sHtMl
+
+原标题：配置与镜像分离防止信息泄露
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://wap.ponrol.asia/blog/4867919.sHtMl
+
+原标题：Debug：预加载逻辑错误服务启动时间成倍拉长
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：http://wap.ponrol.asia/blog/7486960.sHtMl
+
+原标题：golang 系统设计全局异常处理器实现
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：http://wap.ponrol.asia/blog/2938172.sHtMl
+
+原标题：数据库排序规则统一结果一致
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：http://wap.ponrol.asia/blog/8503938.sHtMl
+
+原标题：golang 系统设计 websocket 协议原理梳理
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：http://wap.ponrol.asia/blog/5979172.sHtMl
+
+原标题：实战：gRPC服务编写客户端服务端完整demo
+简介：golang grpc 服务端流推送数据，服务端流式响应，服务端持续向客户端推送多条响应消息。
+ | 原文链接：http://wap.ponrol.asia/blog/7483705.sHtMl
+
+原标题：golang 系统设计开源 pr 评审合并流程实操
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：http://wap.ponrol.asia/blog/5272696.sHtMl
+
+原标题：踩坑：Docker容器内时区不一致引发的时间BUG
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：http://wap.ponrol.asia/blog/9615160.sHtMl
+
+原标题：设计思考：系统降级开关架构设计快速切流量
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：http://wap.ponrol.asia/blog/4049205.sHtMl
+
+原标题：golang 系统设计分布式锁红锁优缺点梳理
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：http://wap.ponrol.asia/blog/0702917.sHtMl
+
+原标题：golang 系统设计大表结构变更不停机方案
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：http://wap.ponrol.asia/blog/4152526.sHtMl
+
+原标题：golang mysql innodb 事务隔离级别
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://wap.ponrol.asia/blog/3596031.sHtMl
+
+原标题：golang 系统设计 http1.1 http2 核心差异讲解
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://wap.ponrol.asia/blog/7591036.sHtMl
+
+原标题：golang es 索引生命周期管理思路
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://wap.ponrol.asia/blog/9838067.sHtMl
+
+原标题：golang 系统设计技术文档编写最佳实践
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：http://wap.ponrol.asia/blog/5157460.sHtMl
+
+原标题：前端水印防信息泄露实现
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：http://wap.ponrol.asia/blog/6383627.sHtMl
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://wap.ponrol.asia/blog/5201360.sHtMl
+
+原标题：golang mock 单元测试编写技巧
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://wap.ponrol.asia/blog/0706929.sHtMl
+
+原标题：排坑：Git提交历史混乱，如何清理错误提交
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://wap.ponrol.asia/blog/9313922.sHtMl
+
+原标题：部署复盘：蓝绿发布实现零停机业务更新
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：http://wap.ponrol.asia/blog/8535148.sHtMl
+
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://wap.ponrol.asia/blog/5272686.sHtMl
+
+原标题：方案对比：同步事务vs事务消息最终一致性
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：http://wap.ponrol.asia/blog/9603920.sHtMl
+
+原标题：文件描述符优化进程卡死修复
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://wap.ponrol.asia/blog/2939171.sHtMl
+
+原标题：HelloDocker：编写你的第一个Dockerfile
+简介：进程线程并发基础概念讲解，区分进程与线程，讲解调度逻辑，理解并发执行原理，为高并发业务开发打基础。
+ | 原文链接：http://wap.ponrol.asia/blog/0716962.sHtMl
+
+原标题：Issue：操作系统最大打开文件数限制导致报错
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：http://wap.ponrol.asia/blog/5272707.sHtMl
+
+原标题：线上异常：缓存雪崩带来数据库压力瞬间飙升
+简介：用户敏感数据脱敏代码实现，编写数据脱敏工具，对手机号、身份证做脱敏处理，防止敏感信息直接泄露。
+ | 原文链接：http://wap.ponrol.asia/blog/6594736.sHtMl
+
+原标题：快速上手搭建简易内网测试服务
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://wap.ponrol.asia/blog/4505959.sHtMl
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://wap.ponrol.asia/blog/2938071.sHtMl
+
+原标题：预编译 SQL 防注入实现
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://wap.ponrol.asia/blog/6370584.sHtMl
+
+原标题：TLS 版本兼容 HTTPS 握手失败
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://wap.ponrol.asia/blog/8713037.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：实战项目：搭建私有Docker镜像仓库本地实践
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：http://wap.ponrol.asia/blog/4150404.sHtMl
+
+原标题：Issue：Docker网络模式选择错误容器互通失败
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://wap.ponrol.asia/blog/8527930.sHtMl
+
+原标题：实践：数据库备份脚本自动化编写实践
+简介：golang go 版本管理 go install 安装工具，go install 安装指定版本 go 工具，管理本地 go 工具版本。
+ | 原文链接：http://wap.ponrol.asia/blog/0724684.sHtMl
+
+原标题：golang 系统设计消息队列解耦削峰
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://wap.ponrol.asia/blog/2928174.sHtMl
+
+原标题：CI 持续集成自动构建流程
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：http://wap.ponrol.asia/blog/2968042.sHtMl
+
+原标题：golang 系统设计告警规则阈值设置方法论
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://wap.ponrol.asia/blog/9602515.sHtMl
+
+原标题：Practice：实现数据库连接池简易模拟实现
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://wap.ponrol.asia/blog/8495819.sHtMl
+
+原标题：坑点：依赖缓存未更新，旧代码持续运行
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：http://wap.ponrol.asia/blog/9727031.sHtMl
+
+原标题：坑点：Docker资源限制未设置导致宿主机卡死
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：http://wap.ponrol.asia/blog/7724036.sHtMl
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：golang http client 连接池调优，调优 Go HTTP Client 连接池参数，复用 TCP 连接，减少连接创建开销。
+ | 原文链接：http://wap.ponrol.asia/blog/7146285.sHtMl
+
+原标题：nodejs 日志轮转生产环境配置
+简介：golang http 客户端连接泄漏排查，http client 未读取响应体导致连接无法复用，解决连接泄漏耗尽连接池。
+ | 原文链接：http://wap.ponrol.asia/blog/1938461.sHtMl
+
+原标题：从零搭建简单CLI命令行工具
+简介：golang http 重定向策略自定义，CheckRedirect 自定义重定向逻辑，限制重定向次数，防止死循环。
+ | 原文链接：http://wap.ponrol.asia/blog/1838171.sHtMl
+
+原标题：无用对象回收抑制内存上涨
+简介：WebSocket 聊天室实时通讯开发，基于 WebSocket 搭建简易聊天室，实现多人消息广播实时聊天效果。
+ | 原文链接：http://wap.ponrol.asia/blog/7494315.sHtMl
+
+原标题：golang kafka 生产者参数调优
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://wap.ponrol.asia/blog/0606747.sHtMl
+
+原标题：方案对比：同步事务vs事务消息最终一致性
+简介：pnpm 包管理工具实战避坑指南，使用 pnpm 管理项目依赖，梳理常见坑点，充分利用 pnpm 优势。
+ | 原文链接：http://wap.ponrol.asia/blog/9638261.sHtMl
+
+原标题：性能复盘：消息队列大量小消息性能问题优化
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：http://wap.ponrol.asia/blog/7191714.sHtMl
+
+原标题：实战项目：实现简单缓存服务缓存穿透击穿防护
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://wap.ponrol.asia/blog/5867259.sHtMl
+
+原标题：golang 系统设计分布式事务几种方案优缺点
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：http://wap.ponrol.asia/blog/9604915.sHtMl
+
+原标题：Security：RPC调用身份认证安全加固
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://wap.ponrol.asia/blog/9727966.sHtMl
+
+原标题：golang 系统设计分布式事务业务选型决策思路
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://wap.ponrol.asia/blog/3040591.sHtMl
+
+原标题：记一次本地运行正常，线上环境报错诡异问题
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：http://wap.ponrol.asia/blog/6972795.sHtMl
+
+原标题：新手指南：项目本地编译输出产物解析
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：http://wap.ponrol.asia/blog/1839280.sHtMl
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：http://wap.ponrol.asia/blog/6303924.sHtMl
+
+原标题：全平台系统环境变量配置
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://wap.ponrol.asia/blog/3847139.sHtMl
+
+原标题：开发记录：搭建CI/CD流水线自动构建部署项目
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：http://wap.ponrol.asia/blog/1566792.sHtMl
+
+原标题：Git 子模块更新代码不全修复
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：http://wap.ponrol.asia/blog/6079088.sHtMl
+
+原标题：设计思考：业务系统如何设计优雅失败架构
+简介：golang k8s informer 机制原理理解，informer 监听 k8s 资源变更，本地缓存，减少 apiserver 压力。
+ | 原文链接：http://wap.ponrol.asia/blog/3799002.sHtMl
+
+原标题：部署实践：容器时区统一配置解决方案
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：http://wap.ponrol.asia/blog/5480685.sHtMl
+
+原标题：方案对比：单体、微服务、模块化单体取舍
+简介：golang 大内存分配 GC 抖动规避，避免瞬时大量对象创建，分批处理，防止 GC 抖动业务抖动。
+ | 原文链接：http://wap.ponrol.asia/blog/3475575.sHtMl
+
+原标题：golang 单例模式实现几种方式
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://wap.ponrol.asia/blog/0498366.sHtMl
+
+原标题：golang minio 分片上传断点续传
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://wap.ponrol.asia/blog/0035552.sHtMl
+
+原标题：Security：RPC调用身份认证安全加固
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://wap.ponrol.asia/blog/9370247.sHtMl
+
+原标题：静态网页 HTML CSS 快速入门实战
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：http://wap.ponrol.asia/blog/2374695.sHtMl
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://wap.ponrol.asia/blog/6003814.sHtMl
+
+原标题：Practice：实现文件监控自动重启开发服务工具
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：http://wap.ponrol.asia/blog/4181292.sHtMl
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：http://wap.ponrol.asia/blog/2595698.sHtMl
+
+原标题：运维笔记：备份策略数据库定时备份脚本
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://wap.ponrol.asia/blog/3057384.sHtMl
+
+原标题：开发复盘：大数据量分页避免offset性能问题
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：http://wap.ponrol.asia/blog/3151313.sHtMl
+
+原标题：golang docker 部署 kafka 本地调试
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：http://wap.ponrol.asia/blog/1836162.sHtMl
+
+原标题：golang 系统设计网关请求日志 traceId 透传实现
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://wap.ponrol.asia/blog/6385848.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 系统设计 protobuf 默认值坑点梳理
+简介：golang 数据库 ORM 框架选型对比，gorm xorm sqlx 对比各 ORM 优缺点，根据业务场景选型。
+ | 原文链接：http://wap.ponrol.asia/blog/5303403.sHtMl
+
+原标题：golang go test 覆盖率统计实操
+简介：golang websocket 服务端开发，Go 实现 WebSocket 服务端，处理连接、消息收发，实现长连接服务。
+ | 原文链接：http://wap.ponrol.asia/blog/6606847.sHtMl
+
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://wap.ponrol.asia/blog/3073614.sHtMl
+
+原标题：排错：打包后资源路径，开发生产行为不一致
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://wap.ponrol.asia/blog/2939362.sHtMl
+
+原标题：Debug：表单自动转义特殊字符业务逻辑出错
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://wap.ponrol.asia/blog/0716959.sHtMl
+
+原标题：golang 系统设计分布式事务几种方案优缺点
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://wap.ponrol.asia/blog/0717961.sHtMl
+
+原标题：坑点：限流计数器重置时机错误，绕过限流规则
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://wap.ponrol.asia/blog/2923515.sHtMl
+
+原标题：前端大文件分片上传完整方案
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：http://wap.ponrol.asia/blog/0717031.sHtMl
+
+原标题：批量数据处理脚本编写技巧
+简介：golang docker 多阶段构建 go 镜像，Go 项目 Docker 多阶段构建，编译与运行阶段分离，大幅度缩减最终镜像体积，提升镜像分发效率。
+ | 原文链接：http://wap.ponrol.asia/blog/4150394.sHtMl
+
+原标题：接口幂等性防重复请求实现
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://wap.ponrol.asia/blog/9505957.sHtMl
+
+原标题：全局时间标准统一逻辑错乱修复
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://wap.ponrol.asia/blog/3049582.sHtMl
+
+原标题：不必要字符转义关闭业务异常
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://wap.ponrol.asia/blog/8725737.sHtMl
+
+原标题：DNS 解析异常第三方调用故障
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://wap.ponrol.asia/blog/1924020.sHtMl
+
+原标题：OpenSource：开源项目风险评估依赖安全检查
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：http://wap.ponrol.asia/blog/7489571.sHtMl
+
+原标题：golang 系统设计延迟消息实现几种方案对比
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://wap.ponrol.asia/blog/9616829.sHtMl
+
+原标题：Practice：批量异步任务处理系统设计实现
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://wap.ponrol.asia/blog/2363560.sHtMl
+
+原标题：golang 系统设计 mq 消息重复消费处理
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：http://wap.ponrol.asia/blog/0996591.sHtMl
+
+原标题：优化实践：分页查询性能优化解决offset问题
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://wap.ponrol.asia/blog/7191715.sHtMl
+
+原标题：golang 系统设计 http1.1 http2 核心差异讲解
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：http://wap.ponrol.asia/blog/2934149.sHtMl
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://wap.ponrol.asia/blog/6383738.sHtMl
+
+原标题：golang 系统设计开源项目协作流程梳理
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://wap.ponrol.asia/blog/5281708.sHtMl
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：开源源码阅读拆解学习思路，分享阅读大型开源项目方法，从入口文件逐层拆解模块，降低源码学习门槛。
+ | 原文链接：http://wap.ponrol.asia/blog/3646819.sHtMl
+
+原标题：快速入门OpenAPI文档生成基础实践
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：http://wap.ponrol.asia/blog/2927036.sHtMl
+
+原标题：gitignore 文件编写过滤规则
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://wap.ponrol.asia/blog/6373616.sHtMl
+
+原标题：Performance：后端接口性能优化完整分析流程
+简介：本地简易配置中心动态管理，搭建轻量本地配置中心，业务动态读取配置，修改配置不重启服务。
+ | 原文链接：http://wap.ponrol.asia/blog/6483829.sHtMl
+
+原标题：golang 系统设计大文件上传架构
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://wap.ponrol.asia/blog/7483738.sHtMl
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://wap.ponrol.asia/blog/8534030.sHtMl
+
+原标题：安全笔记：Cookie安全属性SecureHttpOnly
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：http://wap.ponrol.asia/blog/6370694.sHtMl
+
+原标题：golang 信号捕获程序退出处理
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://wap.ponrol.asia/blog/5378404.sHtMl
+
+原标题：golang 系统设计压测工具 vegeta 使用示例
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：http://wap.ponrol.asia/blog/2980693.sHtMl
+
+原标题：避坑：请求未设置read超时无限挂起连接
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://wap.ponrol.asia/blog/3047360.sHtMl
+
+原标题：性能复盘：锁粒度太大，拆分细粒度锁优化
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://wap.ponrol.asia/blog/4049169.sHtMl
+
+原标题：架构笔记：海量消息堆积架构处理能力设计
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://wap.ponrol.asia/blog/2617071.sHtMl
+
+原标题：开发代理服务网络限制解决
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://wap.ponrol.asia/blog/8584686.sHtMl
+
+原标题：golang 系统设计 io 瓶颈磁盘网络优化实践
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：http://wap.ponrol.asia/blog/0727249.sHtMl
+
+原标题：golang 系统设计接口幂等架构设计
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：http://wap.ponrol.asia/blog/0717031.sHtMl
+
+原标题：golang ci 流水线漏洞扫描依赖检查
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：http://wap.ponrol.asia/blog/9823816.sHtMl
+
+原标题：golang 系统设计 pr 评审合并完整流程
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://wap.ponrol.asia/blog/1506972.sHtMl
+
+原标题：开发复盘：分库分表本地模拟与数据路由实践
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://wap.ponrol.asia/blog/2645259.sHtMl
+
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://wap.ponrol.asia/blog/3378472.sHtMl
+
+四、架构设计｜Architecture
+原标题：Troubleshooting：K8sPodOOMKilled完整排查流程
+简介：golang 消息队列 kafka 消费开发，Go 开发 Kafka 消费程序，消费消息执行业务，理解 Kafka 消费逻辑。
+ | 原文链接：http://wap.ponrol.asia/blog/7169350.sHtMl
+
+原标题：数据库事务 ACID 原理讲解
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：http://wap.ponrol.asia/blog/4998019.sHtMl
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://wap.ponrol.asia/blog/2557386.sHtMl
+
+原标题：Practice：模拟第三方接口超时服务降级验证
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://wap.ponrol.asia/blog/1894471.sHtMl
+
+原标题：项目实践：MySQL读写分离本地模拟实践
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://wap.ponrol.asia/blog/9602706.sHtMl
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://wap.ponrol.asia/blog/4173573.sHtMl
+
+原标题：TLS 版本兼容 HTTPS 握手失败
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://wap.ponrol.asia/blog/6313818.sHtMl
+
+原标题：golang gorm ORM 数据库操作
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：http://wap.ponrol.asia/blog/8202728.sHtMl
+
+原标题：golang 系统设计缓存预热脚本编写实操
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://wap.ponrol.asia/blog/1838353.sHtMl
+
+原标题：安全笔记：Git仓库密钥硬编码泄露处理方案
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：http://wap.ponrol.asia/blog/2938958.sHtMl
+
+原标题：golang kafka 监控指标简单梳理
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：http://wap.ponrol.asia/blog/9617947.sHtMl
+
+原标题：golang 系统设计延迟队列业务实现
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://wap.ponrol.asia/blog/8535138.sHtMl
+
+原标题：实战：Nginx负载均衡多种策略配置实践
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：http://wap.ponrol.asia/blog/0617172.sHtMl
+
+原标题：golang 系统设计线上日志快速检索技巧
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://wap.ponrol.asia/blog/3061404.sHtMl
+
+原标题：golang redis 地理位置 geo 使用
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://wap.ponrol.asia/blog/3052585.sHtMl
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：express 中间件开发业务实践，开发 Express 自定义中间件，拦截请求，实现鉴权、日志记录等通用逻辑。
+ | 原文链接：http://wap.ponrol.asia/blog/1816961.sHtMl
+
+原标题：坑点：缓存过期策略不当引发业务异常
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://wap.ponrol.asia/blog/3034958.sHtMl
+
+原标题：golang kafka 死信队列业务落地
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：http://wap.ponrol.asia/blog/0617049.sHtMl
+
+?
